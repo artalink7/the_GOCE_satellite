@@ -83,6 +83,11 @@ int main() {
    g->SetTitle("Field's modulus variation on a 2*pi orbit");
    app.Run();
    */
+   
+   delete [] Rock;
+   delete [] G_1;
+   delete [] G_2;
+   delete [] differential;
 
    return 0;
 }
