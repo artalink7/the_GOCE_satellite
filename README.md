@@ -12,3 +12,4 @@ There are 2 output files: a pdf file which is a graph showing the variations of 
 
 The graph on the pdf file is produced using ROOT libraries. If you have ROOT install on your computer, you can drop out the // at the end of the main and produce your own canvas!     
 
+For compiling the program, I added a simple makefile: just type "make" on the terminal addressed to the directory containing all the scripts.
